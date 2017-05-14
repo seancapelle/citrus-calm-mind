@@ -1,18 +1,30 @@
 /*Text*/
 .centered {text-align: center;}
+.title {font-family: 'Lobster', cursive; font-size: 4em; text-shadow: 3px 3px 0 black;}
 
 /*Images*/
 .orange-bg {background-image: url('images/orange-med.JPG'); background-position: center; width: 100%; height: 400px;}
-.ocean-bg {background-image: url('images/DSCF0053.JPG'); background-position: center; width: 100%; height: 400px;}
+.ocean-bg {background-image: url('images/beach.JPG'); background-position: center; width: 100%; height: 400px;}
 
 /*Colors*/
-.light-brown {background-color: #A98B67;}
+.blue-text {color: #688499;}
 .cream-text {color: #E7EAC6;}
 .white-text {color: white;}
+.sand-color {background-color: #a39475;}
+.blue-color {background-color: #688499;}
+.light-brown {background-color: #A98B67;}
+
+/*Borders*/
+.title-border {border: 1px solid white;}
+.img-border {border: 2px solid white; box-shadow: 3px 3px 0 black; border-radius: 5px;}
 
 /*Spacing*/
 .margin-top-20 {margin-top: 20px;}
 .padding-15 {padding: 15px;}
+.margin-side-only {margin-top: 0px; margin-bottom: 0px;}
+.left {float: left;}
+.right {float: right;}
+.margin-auto {margin: auto;}
 
 ul {
 	float: right;
@@ -27,7 +39,12 @@ li a{
 	padding-top: 20px;
 	/*font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;*/
 	color: white;
+	font-size: 1.5em;
 }
 li {
 	display: inline;
 }
+li a:hover {text-decoration: none; color: white; text-shadow: 3px 3px 0 black;}
+
+a {text-decoration: none; color: white;}
+a:hover {text-decoration: none; color: white; text-shadow: 3px 3px 0 black;}
