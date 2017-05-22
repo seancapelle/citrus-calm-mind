@@ -1,10 +1,45 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/*Nav bar*/
+ul {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+li a{
+	text-decoration: none;
+	padding: 8px 0 8px 16px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	/*font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;*/
+	color: white;
+	font-size: 1.5em;
+}
+li {
+	display: inline;
+}
+li a:hover {text-decoration: none; color: white; text-shadow: 3px 3px 0 black;}
+
+a {text-decoration: none; color: white;}
+a:hover {text-decoration: none; color: white; text-shadow: 3px 3px 0 black;}
+.nav-bar {background-color: rgba(0,0,0,0.25);}
+
 /*Text*/
 .centered {text-align: center;}
 .title {font-family: 'Lobster', cursive; font-size: 4em; text-shadow: 3px 3px 0 black;}
 
 /*Images*/
-.orange-bg {background-image: url('images/orange-med.JPG'); background-position: center; width: 100%; height: 400px;}
 .ocean-bg {background-image: url('images/beach.JPG'); background-position: center; width: 100%; height: 400px;}
+.img-size {width: 150px;}
 
 /*Colors*/
 .blue-text {color: #688499;}
@@ -24,27 +59,13 @@
 .margin-side-only {margin-top: 0px; margin-bottom: 0px;}
 .left {float: left;}
 .right {float: right;}
-.margin-auto {margin: auto;}
+.margin-auto {margin: auto; display: block;}
+.top-push {margin-top: 50px;}
 
-ul {
-	float: right;
-	list-style-type: none;
-	margin: 0;
-	padding-top: 15px;
-}
-li a{
-	text-decoration: none;
-	padding: 8px 0 8px 16px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	/*font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;*/
-	color: white;
-	font-size: 1.5em;
-}
-li {
-	display: inline;
-}
-li a:hover {text-decoration: none; color: white; text-shadow: 3px 3px 0 black;}
 
-a {text-decoration: none; color: white;}
-a:hover {text-decoration: none; color: white; text-shadow: 3px 3px 0 black;}
+@media only screen and (max-width: 768px) {
+	.top-push {margin-top: 0px;}
+	.img-size {width: 100px;}
+	.title {font-size: 3em;}
+	.sm-title{font-size: 2em;}
+	}
