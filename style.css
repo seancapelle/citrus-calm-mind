@@ -29,8 +29,8 @@ li {
 }
 li a:hover {text-decoration: none; color: white; text-shadow: 3px 3px 0 black;}
 
-a {text-decoration: none; color: white;}
-a:hover {text-decoration: none; color: white; text-shadow: 3px 3px 0 black;}
+a {text-decoration: none; }
+a:hover {text-decoration: none;}
 .nav-bar {background-color: rgba(0,0,0,0.25);}
 
 /*Text*/
@@ -42,10 +42,11 @@ a:hover {text-decoration: none; color: white; text-shadow: 3px 3px 0 black;}
 .ocean-bg {background-image: url('images/beach.JPG'); background-position: center; width: 100%; height: 350px;}
 .img-size {width: 150px;}
 
-
 /*Colors*/
 .blue-text {color: #688499;}
 .cream-text {color: #E7EAC6;}
+.white-link { color: white; }
+.white-link:hover { color: white; text-shadow: 3px 3px 0 black; }
 .white-text {color: white;}
 .sand-color {background-color: #a39475;}
 .blue-color {background-color: #688499;}
@@ -54,6 +55,11 @@ a:hover {text-decoration: none; color: white; text-shadow: 3px 3px 0 black;}
 /*Borders*/
 .title-border {border: 1px solid white;}
 .img-border {border: 2px solid white; box-shadow: 3px 3px 0 black; border-radius: 5px;}
+
+/*Display*/
+.align-center {align-items: center;}
+.flex {display: flex;}
+.justify-center {justify-content: center;}
 
 /*Spacing*/
 .margin-top-10 {margin-top: 10px;}
@@ -67,6 +73,7 @@ a:hover {text-decoration: none; color: white; text-shadow: 3px 3px 0 black;}
 
 
 @media only screen and (max-width: 768px) {
+	.hidden-xs {display: none;}
 	.top-push {margin-top: 0px;}
 	.img-size {width: 100px;}
 	.title {font-size: 3em;}
