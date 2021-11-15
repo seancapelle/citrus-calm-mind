@@ -33,6 +33,12 @@ a {text-decoration: none; }
 a:hover {text-decoration: none;}
 .nav-bar {background-color: rgba(0,0,0,0.25);}
 
+/* Banner */
+.announcement-banner {
+	background-color: rgba(5,5,5,0.5);
+	color: white;
+}
+
 /*Text*/
 .centered {text-align: center;}
 .title {font-family: 'Lobster', cursive; font-size: 4em; text-shadow: 3px 3px 0 black;}
@@ -41,6 +47,17 @@ a:hover {text-decoration: none;}
 /*Images*/
 .ocean-bg {background-image: url('images/beach.JPG'); background-position: center; width: 100%; height: 350px;}
 .img-size {width: 150px;}
+
+/*Borders*/
+.img-border {
+	border: 2px solid white; 
+	border-radius: 5px;
+	box-shadow: 5px 5px 20px; 
+}
+
+.title-border {
+	border: 1px solid white;
+}
 
 /*Colors*/
 .blue-text {color: #688499;}
@@ -52,18 +69,39 @@ a:hover {text-decoration: none;}
 .blue-color {background-color: #688499;}
 .light-brown {background-color: #A98B67;}
 
-/*Borders*/
-.title-border {border: 1px solid white;}
-.img-border {border: 2px solid white; box-shadow: 3px 3px 0 black; border-radius: 5px;}
-
 /*Display*/
-.align-center {align-items: center;}
-.flex {display: flex;}
-.justify-center {justify-content: center;}
+.align-center {
+	align-items: center;
+}
+
+.align-start {
+	align-items: start;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+/* Font */
+.font-x1_5 {
+	font-size: 1.5em !important;
+}
 
 /*Spacing*/
+.margin-0 {
+	margin: 0px;
+}
 .margin-top-10 {margin-top: 10px;}
 .margin-top-20 {margin-top: 20px;}
+.padding-0 {padding: 0px;}
 .padding-15 {padding: 15px;}
 .margin-side-only {margin-top: 0px; margin-bottom: 0px;}
 .left {float: left;}
